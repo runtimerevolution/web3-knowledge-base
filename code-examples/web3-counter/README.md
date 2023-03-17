@@ -47,7 +47,9 @@ Now that we are connected to our test network it's time to import one of our tes
 
 To do that we first need to copy the private key of one of our test account. Let's use the first one and copy the private key.
 
-![Copy private key](assets/copy-private-key.gif)
+<p align="center">
+  <img alt="Copy private key" src="assets/copy-private-key.gif"/>
+</p>
 
 Then just import the account into MetaMask. Your should be able to see the Ether balance of your test account.
 
@@ -74,4 +76,6 @@ Finally, we just need to run our front-end application with `npm run dev`, _et v
 
 If everything is working as expected you should have something like this:
 
-![Demo](assets/demo.gif)
+<p align="center">
+  <img alt="Demo" src="assets/demo.gif"/>
+</p>
