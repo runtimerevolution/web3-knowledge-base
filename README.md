@@ -13,9 +13,6 @@ So, whether you're here to learn, explore, or contribute, we invite you to join 
 Code examples:
 - [Counter dapp built in Ethereum](code-examples/web3-counter/README.md)
 
-Presentations:
-- [The Decentralized Web: A New Hope](presentations/The%20Decentralized%20Web%3A%20A%20New%20Hope/README.md)
-
 Articles:
 - [Internet Health Report | Who controls the Internet?](https://internethealthreport.org/v01/decentralization/)
 - [Beyond bitcoin | Using blockchain to advance the SDGs](https://feature.undp.org/beyond-bitcoin/)
@@ -31,6 +28,8 @@ Tools:
 Tutorials:
 - [useWeb3.xyz](https://www.useweb3.xyz/)
 - [CryptoZombies](https://cryptozombies.io/)
+- [Ethereum Learn Portal](https://ethereum.org/en/learn/)
+    - [Introduction to Smart Contracts](https://ethereum.org/en/developers/docs/smart-contracts/)
 
 Webinars:
 - [Imagining a Better Online World: Exploring the Decentralized Web](https://getdweb.net/dweb-webinar-series/)

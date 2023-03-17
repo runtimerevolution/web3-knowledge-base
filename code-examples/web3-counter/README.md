@@ -3,6 +3,7 @@
 This is a very simple counter application created in Ethereum, using [Truffle](https://trufflesuite.com/docs/truffle/) and [MetaMask](https://metamask.io/), to demonstrate how simple it is to create decentralized applications in the blockchain.
 
 > **Note**
+>
 > This example was created with the help of [this tutorial](https://www.youtube.com/watch?v=rzvk2kdjr2I). Although the parts related to the interaction with MetaMask are outdated — _that part is now way more simple!_ — you can still check it to get an idea of how everything fits together.
 > 
 > You can find the most updated information on how to connect to your blockchain app using MetaMask [here](https://docs.metamask.io/guide/).
@@ -16,7 +17,7 @@ This is a very simple counter application created in Ethereum, using [Truffle](h
 
 [Ganache](https://trufflesuite.com/ganache/) is a local development blockchain used to develop decentralized applications (DApps) on the Ethereum blockchain. It simulates the Ethereum network, and lets you check how your DApp will perform before you release it to production.
 
-Once you install and open it, it should look something line this: 
+Once you install it, open it and click on _Quickstart Ethereum_. It should look something like this: 
 
 ![Ganache](assets/ganache.png)
 
@@ -63,6 +64,7 @@ First, let's install all of our dependencies by running the good old `npm instal
 After that, it's time to deploy our smart contract to our test network using truffle with `truffle migrate`.
 
 > **Note**
+>
 > During your development process you can also use the following commands:
 > - `truffle compile` - to compile your smart contract and check for any errors before deploying
 > - `truffle migrate --reset` - to redeploy your smart contract if you've made any changes after deploying the first time
