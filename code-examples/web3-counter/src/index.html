@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web3 Example</title>
+
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <body>
+    <div class="container is-max-desktop">
+        <section class="hero is-medium">
+            <div class="hero-body">
+                <div>
+                    <h1 class="title">Web 3.0 Example</h1>
+                    <h2 class="subtitle">Simple counter built using Ethereum</h2>
+                    
+                    <div id="account"></div>
+
+                    <progress id="loader" class="progress is-small is-link" max="100">15%</progress>
+
+                    <div id="content" class="level mt-6">
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">Decrement</p>
+                            <p class="title">
+                                <button class="button is-danger" onclick="App.decrement()">
+                                    <span class="icon">
+                                        <i class="fa fa-minus"></i>
+                                    </span>
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">Count</p>
+                            <p id="count" class="title"></p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">Increment</p>
+                            <p class="title">
+                                <button class="button is-success" onclick="App.increment()">
+                                    <span class="icon">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendor/web3/dist/web3.min.js"></script>
+    <script src="vendor/truffle-contract/dist/truffle-contract.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
